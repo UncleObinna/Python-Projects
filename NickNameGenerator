@@ -1,0 +1,11 @@
+print("-------------------------")
+print("|  Nick Name Generator  |")
+print("-------------------------")
+
+# What is your name
+name = input("What's your name?:")
+# What city did you grow up in?
+city = input("What city did you grow up in?:")
+
+# Show result
+print(name + ", your nick name is: '" + name + " of " + city + "'.")
