@@ -15,4 +15,4 @@ weight = float(input("What do you weigh?(In Kg):"))
 lucky_number = (weight + height) % age
 
 # Result
-print(name + ", " + "your Lucky Number is:", int(lucky_number))
+print(name + ", " + "your Lucky Number is:", round(lucky_number))
